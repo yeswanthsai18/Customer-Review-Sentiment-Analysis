@@ -1,24 +1,28 @@
-# Customer Sentiment Analysis Tool
+# Sentiment Analysis System
+
+A machine learning project that analyzes text data to determine sentiment (positive, negative, or neutral).
 
 ## Overview
-This tool analyzes customer feedback and determines whether the sentiment is positive, negative, or neutral. It's built using machine learning techniques and natural language processing.
 
-## Purpose
-Businesses can use this tool to:
-- Automatically classify large volumes of customer feedback
-- Track sentiment trends over time
-- Identify areas for product or service improvement
-- Prioritize customer service responses based on sentiment
+This project uses natural language processing (NLP) techniques to build a sentiment analysis model that can be applied to various texts like product reviews, social media posts, and customer feedback.
 
-## Features (Planned)
-- Text preprocessing pipeline
-- Multiple ML models for sentiment classification
-- Evaluation metrics dashboard
-- Simple API for integration
-- Basic web interface for demonstration
+## Project Structure
 
-## Project Status
-🚧 Under Development 🚧
+- `data/`: Contains raw and processed datasets
+- `src/`: Source code
+  - `models/`: ML model definitions
+  - `preprocessing/`: Data preprocessing utilities
+  - `utils/`: Helper functions
+- `notebooks/`: Jupyter notebooks for exploration and visualization
+- `tests/`: Unit tests
 
-## Author
-Yeswanth Sai Tirumalasetty
+## Setup
+
+1. Clone the repository
+2. Create a virtual environment: `python -m venv venv`
+3. Activate the environment
+4. Install dependencies: `pip install -r requirements.txt`
+
+## Usage
+
+(To be updated as the project progresses)
